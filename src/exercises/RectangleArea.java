@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class RectangleArea {
     public static void main(String[] args) {
-        double length;
-        double width;
         Scanner in = new Scanner(System.in);
         System.out.println("What is the rectangle's length?");
-        length = in.nextDouble();
+        double length = in.nextDouble();
+
         System.out.println("What is the rectangle's width?");
-        width = in.nextDouble();
+        double width = in.nextDouble();
+
+        double area =  length * width;
+        System.out.println("The rectangle's area is " + area);
     }
 }

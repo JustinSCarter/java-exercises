@@ -1,13 +1,11 @@
 package org.launchcode.java.demos.java4python;
 
-/**
- * From "Java for Python Programmers"
- */
+//From "Java for Python Programmers"
 import java.util.Scanner;
 public class ElseIf {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
-        System.out.println('enter a grade');
+        System.out.println("enter a grade");
         int grade = in.nextInt();
         
         if (grade < 60) {
